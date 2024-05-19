@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <!-- Define the solid color of the oval -->
+    <solid android:color="@android:color/transparent"/>
+
+    <!-- Optional: If you want a border around the oval, add a stroke -->
+    <stroke android:width="3dp" android:color="#36bc95"/>
+
+    <!-- Optional: Define padding inside the oval -->
+    <padding
+        android:left="4dp"
+        android:top="4dp"
+        android:right="4dp"
+        android:bottom="4dp" />
+
+    <!-- Optional: Define size (remove if you want the oval to fill its container) -->
+    <size
+        android:width="100dp"
+        android:height="200dp"/>
+</shape>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">vitalscanv2</string>
+    <string name="start_scan_string">Start a scan</string>
+    <string name="bounding_oval_string">Bounding oval to keep face inside</string>
+    <string name="disclaimer_text">Disclaimer: For Investigational Use Only. Our Health App is not a substitute for the clinical judgment of a healthcare professional. It is intended to improve your awareness of general wellness. It does not diagnose, treat, mitigate or prevent any disease, symptom, disorder or abnormal physical state. Consult with a health care professional or emergency services if you believe you may have a medical issue.</string>
+    <string name="instruction_1">1. The ambient light should be bright and consistent and must be white.</string>
+    <string name="instruction_2">2. Remove your masks, eye- wear, or clothing obstruction the face for the duration of scan.</string>
+    <string name="instruction_3">3. Keep your face and phone steady to avoid movements during the scan.</string>
+    <string name="instruction_4">4. For light mode: Make sure your face is mostly covered by the blue circle.</string>
+    <string name="instruction_5">5. If prompted, allow the camera permission.</string>
+    <string name="measurement_failed">Measurement failed…try again in a bit!</string>
+    <string name="vital_scan">Vital Scan</string>
+    <string name="account_disclaimer_text">Our app does not create user accounts and utilizes data solely for generating vital reports.</string>
+    <string name="loading_text1">Getting results…</string>
+    <string name="loading_text2">Please wait…this won\'t take much longer</string>
+<!--    <string name="loading_text3">Vital Scan</string>-->
+</resources>

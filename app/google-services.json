@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "647523222387",
+    "project_id": "face-scan-82fc4",
+    "storage_bucket": "face-scan-82fc4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647523222387:android:bcb4ed2d41ca93188a7b06",
+        "android_client_info": {
+          "package_name": "com.actofit.vitalscan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4jboK4S6vHyGK6aop53m7kH1CfTwcvuY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

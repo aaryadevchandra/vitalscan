@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:ignore="HardcodedText">-->
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/bpm_value"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="0"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:layout_marginLeft="30dp"-->
+<!--        />-->
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/bpm_tv"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="BPM"-->
+<!--        android:layout_marginTop="80dp"-->
+<!--        android:layout_alignStart="@+id/bpm_value"-->
+<!--        />-->
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/ibi_value"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="0"-->
+<!--        android:layout_alignTop="@+id/bpm_value"-->
+<!--        android:layout_marginLeft="100dp"-->
+<!--        />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/ibi_tv"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="IBI"-->
+<!--        android:layout_marginTop="80dp"-->
+<!--        android:layout_alignStart="@+id/ibi_value"-->
+<!--        />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/sdnn_value"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="0"-->
+<!--        android:layout_alignTop="@+id/bpm_value"-->
+<!--        android:layout_marginLeft="200dp"-->
+<!--        />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/sdnn_tv"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="SDNN"-->
+<!--        android:layout_marginTop="80dp"-->
+<!--        android:layout_alignStart="@+id/sdnn_value"-->
+<!--        />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/rmssd_value"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="0"-->
+<!--        android:layout_alignTop="@+id/bpm_value"-->
+<!--        android:layout_marginLeft="300dp"-->
+<!--        />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/rmssd_tv"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="RMSSD"-->
+<!--        android:layout_marginTop="80dp"-->
+<!--        android:layout_alignStart="@+id/rmssd_value"-->
+<!--        />-->
+
+<!--&lt;!&ndash;  ************************************************************ &ndash;&gt;-->
+<!--    <TextView-->
+<!--        android:id="@+id/pnn20_value"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="0"-->
+<!--        android:layout_marginTop="150dp"-->
+<!--        android:layout_alignStart="@+id/bpm_value"-->
+<!--        />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/pnn20_tv"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignStart="@+id/pnn20_value"-->
+<!--        android:layout_marginTop="180dp"-->
+<!--        android:text="PNN20"-->
+<!--        />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/pnn50_value"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="0"-->
+<!--        android:layout_marginTop="150dp"-->
+<!--        android:layout_alignStart="@+id/ibi_value"-->
+<!--        />-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="PNN50"-->
+<!--        android:layout_alignStart="@+id/pnn50_value"-->
+<!--        android:layout_marginTop="180dp"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/hrv_value"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="0"-->
+<!--        android:layout_marginTop="150dp"-->
+<!--        android:layout_alignStart="@+id/sdnn_value"-->
+<!--        />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/hrv_tv"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="HRV"-->
+<!--        android:layout_alignStart="@+id/hrv_value"-->
+<!--        android:layout_marginTop="180dp"-->
+<!--        />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/rr_value"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="0"-->
+<!--        android:layout_marginTop="150dp"-->
+<!--        android:layout_alignStart="@+id/rmssd_value"-->
+<!--        />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/rr_tv"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Resp Rate"-->
+<!--        android:layout_alignStart="@+id/rr_value"-->
+<!--        android:layout_marginTop="180dp"-->
+<!--        />-->
+
+<!--    &lt;!&ndash;  ************************************************************ &ndash;&gt;-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/prq_value"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="0"-->
+<!--        android:layout_alignStart="@id/bpm_value"-->
+<!--        android:layout_marginTop="220dp"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/prq_tv"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="PRQ"-->
+<!--        android:layout_alignStart="@id/bpm_value"-->
+<!--        android:layout_marginTop="250dp"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/sysbp_value"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="0"-->
+<!--        android:layout_alignStart="@+id/ibi_value"-->
+<!--        android:layout_marginTop="220dp"-->
+<!--        />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/sysbp_tv"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="SYS. BP"-->
+<!--        android:layout_alignStart="@id/ibi_value"-->
+<!--        android:layout_marginTop="250dp"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/diabp_value"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="0"-->
+<!--        android:layout_alignStart="@+id/sdnn_value"-->
+<!--        android:layout_marginTop="220dp"-->
+<!--        />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/diabp_tv"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="DIA. BP"-->
+<!--        android:layout_alignStart="@id/sdnn_value"-->
+<!--        android:layout_marginTop="250dp"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/spo2_value"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="0"-->
+<!--        android:layout_alignStart="@+id/rmssd_value"-->
+<!--        android:layout_marginTop="220dp"-->
+<!--        />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/spo2_tv"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="SpO2"-->
+<!--        android:layout_alignStart="@id/rmssd_value"-->
+<!--        android:layout_marginTop="250dp"/>-->
+
+<!--    &lt;!&ndash;  ************************************************************ &ndash;&gt;-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/vo2max_value"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="0"-->
+<!--        android:layout_alignStart="@id/bpm_value"-->
+<!--        android:layout_marginTop="350dp"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/vo2max_tv"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Vo2 Max"-->
+<!--        android:layout_alignStart="@id/bpm_value"-->
+<!--        android:layout_marginTop="380dp"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/si_value"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="0"-->
+<!--        android:layout_alignStart="@+id/ibi_value"-->
+<!--        android:layout_marginTop="350dp"-->
+<!--        />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/si_tv"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Stress Index"-->
+<!--        android:layout_alignStart="@id/ibi_value"-->
+<!--        android:layout_marginTop="380dp"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/mhr_value"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="0"-->
+<!--        android:layout_alignStart="@+id/sdnn_value"-->
+<!--        android:layout_marginTop="350dp"-->
+<!--        />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/mhr_tv"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Max Heart Rate"-->
+<!--        android:maxWidth="50dp"-->
+<!--        android:layout_alignStart="@id/sdnn_value"-->
+<!--        android:layout_marginTop="380dp"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/hrr_value"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="0"-->
+<!--        android:layout_alignStart="@+id/rmssd_value"-->
+<!--        android:layout_marginTop="350dp"-->
+<!--        />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/hrr_tv"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Heart Rate Reserve"-->
+<!--        android:layout_alignStart="@id/rmssd_value"-->
+<!--        android:layout_marginTop="380dp"/>-->
+
+<!--    &lt;!&ndash;  ************************************************************ &ndash;&gt;-->
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/thr_value"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="0"-->
+<!--        android:layout_alignStart="@id/bpm_value"-->
+<!--        android:layout_marginTop="450dp"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/thr_tv"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Target Heart Rate"-->
+<!--        android:maxWidth="50dp"-->
+<!--        android:layout_alignStart="@id/bpm_value"-->
+<!--        android:layout_marginTop="480dp"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/co_value"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="0"-->
+<!--        android:layout_alignStart="@+id/ibi_value"-->
+<!--        android:layout_marginTop="450dp"-->
+<!--        />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/co_tv"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Cardiac Output"-->
+<!--        android:maxWidth="50dp"-->
+<!--        android:layout_alignStart="@id/ibi_value"-->
+<!--        android:layout_marginTop="480dp"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/map_value"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="0"-->
+<!--        android:layout_alignStart="@+id/sdnn_value"-->
+<!--        android:layout_marginTop="450dp"-->
+<!--        />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/map_tv"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Mean Arterial Pressure"-->
+<!--        android:maxWidth="56dp"-->
+<!--        android:layout_alignStart="@id/sdnn_value"-->
+<!--        android:layout_marginTop="480dp"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/hu_value"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="0"-->
+<!--        android:layout_alignStart="@+id/rmssd_value"-->
+<!--        android:layout_marginTop="450dp"-->
+<!--        />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/hu_tv"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Heart Utilized"-->
+<!--        android:layout_alignStart="@id/rmssd_value"-->
+<!--        android:maxWidth="50dp"-->
+<!--        android:layout_marginTop="480dp"/>-->
+
+<!--    &lt;!&ndash;  ************************************************************ &ndash;&gt;-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/bv_value"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="0"-->
+<!--        android:layout_alignStart="@id/bpm_value"-->
+<!--        android:layout_marginTop="550dp"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/bv_tv"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Blood Volume"-->
+<!--        android:maxWidth="50dp"-->
+<!--        android:layout_alignStart="@id/bpm_value"-->
+<!--        android:layout_marginTop="580dp"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tbw_value"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="0"-->
+<!--        android:layout_alignStart="@+id/ibi_value"-->
+<!--        android:layout_marginTop="550dp"-->
+<!--        />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tbw_tv"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Total Body Water"-->
+<!--        android:maxWidth="50dp"-->
+<!--        android:layout_alignStart="@id/ibi_value"-->
+<!--        android:layout_marginTop="580dp"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/bw_value"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="0"-->
+<!--        android:layout_alignStart="@+id/sdnn_value"-->
+<!--        android:layout_marginTop="550dp"-->
+<!--        />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/bw_tv"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Body Water"-->
+<!--        android:maxWidth="56dp"-->
+<!--        android:layout_alignStart="@id/sdnn_value"-->
+<!--        android:layout_marginTop="580dp"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/bmi_value"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="0"-->
+<!--        android:layout_alignStart="@+id/rmssd_value"-->
+<!--        android:layout_marginTop="550dp"-->
+<!--        />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/bmi_tv"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="BMI"-->
+<!--        android:layout_alignStart="@id/rmssd_value"-->
+<!--        android:maxWidth="50dp"-->
+<!--        android:layout_marginTop="580dp"/>-->
+
+
+<!--</RelativeLayout>-->
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
